@@ -11,19 +11,20 @@ body {
 
 div.col {
     background: #ffffff;
-    
+
 
 }
+
 
 p {
     margin: 0px 15px 30px;
 }
 
 h1 {
-    
+
     color: #007bff;
     padding: 15px 15px 0px;
-   
+
 
 }
 
@@ -42,11 +43,14 @@ h1 {
 
 .main-content {
     margin-top: 25px;
+    visibility: hidden;
 }
 
 
 #bg-img {
-    background-image: url(../images/real_cf.png);
+    background-image: url(../images/josh-calabrese-Ev1XqeVL2wI-unsplash.jpg);
+    background-size: cover;
+
 }
 
 .wrapper {
@@ -61,22 +65,21 @@ h1 {
 
 .footer {
     background: #ffffff;
-   
+
 }
-  
+
 .work0,
 .work1,
 .work2,
 .work3,
 .work4,
-.work5
- {
+.work5 {
     height: 200px;
     width: 267px;
     background: #007bff;
-    margin: 6px;
 
-    
+    visibility: visible;
+
 }
 
 .work1,
@@ -87,17 +90,17 @@ h1 {
     background-size: contain;
 }
 
-.carbon-fiber{
+.carbon-fiber {
     background-image: url(../images/real_cf.png);
-    
+
 }
 
 .carbon-fiber0 {
-    color: #fff;            
+    color: #fff;
 }
 
 .carbon-fiber,
-.carbon-fiber0{
+.carbon-fiber0 {
     padding: 5px 3px;
     width: 100%;
 }
@@ -133,3 +136,4 @@ h1 {
 h3 {
     color: #ffffff;
 }
+

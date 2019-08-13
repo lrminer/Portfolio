@@ -1,0 +1,48 @@
+/* elements */
+
+body {
+    background-image: url(../assets/images/josh-calabrese-Ev1XqeVL2wI-unsplash.jpg);
+    background-size: cover;
+}
+
+h1, p {
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* classes */
+
+.transparent-nav {
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+/* ids */
+
+#main-content {
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/* media-queries */

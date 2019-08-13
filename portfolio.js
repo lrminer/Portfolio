@@ -24,10 +24,10 @@ $(document).ready(function () {
         element: '<h1>',
         content: 'Logan Miner'
     }, {
-        element: '<h2>',
+        element: '<p>',
         content: 'Phone: 616-648-7908'
     }, {
-        element: '<h2>',
+        element: '<p>',
         content: 'Email: loganrobertminer@gmail.com'
     }];
 
@@ -84,8 +84,9 @@ $(document).ready(function () {
             input.addClass('.contact-input')
             form.append(input);
         }
+        form.addClass('d-flex flex-column');
+        // const button = $('<button>');
 
-        const button =
 
             // form.append(button);
 

@@ -14,9 +14,12 @@ p {
 img {
     max-width: 100%;
     height: auto;
+    padding-bottom: 50px;
 }
 
-
+input{
+    margin-bottom:20px;
+}
 
 
 
@@ -27,7 +30,9 @@ img {
     background: none;
 }
 
-
+.appended-content {
+    background-color: rgba(128, 128, 128, 0.5);
+}
 
 
 
@@ -39,6 +44,9 @@ img {
 
 #main-content {
     margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.75);
+
+
 }
 
 

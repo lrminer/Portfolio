@@ -20,6 +20,16 @@ $(document).ready(function () {
         $('#main-content').html(div);
     });
 
+    const myContactInfo = [{
+        element: '<h1>',
+        content: 'Logan Miner'
+    }, {
+        element: '<h2>',
+        content: 'Phone: 616-648-7908'
+    }, {
+        element: '<h2>',
+        content: 'Email: loganrobertminer@gmail.com'
+    }];
 
     const contactItems = {
         form: [{
@@ -46,6 +56,22 @@ $(document).ready(function () {
     };
 
     $('#contactLink').on('click', function () {
+        $('#main-content').empty();
+
+        
+        //makes div with my info
+        const myInfo = $('<div>');
+        for (let i = 0; i < myContactInfo.length; i++) {
+            const element = $(myContactInfo[i].element);
+            const content = myContactInfo[i].content;
+            element.text(content);
+            myInfo.append(element);
+        }
+        $('#main-content').append(myInfo);
+        
+        
+        
+        //makes the form
         const div = $('<div>');
         const form = $('<form>');
         const h1 = $();
@@ -67,7 +93,7 @@ $(document).ready(function () {
 
         div.addClass('d-flex flex-column'); //style your appended content with bootstrap classes here
 
-        $('#main-content').html(div);
+        $('#main-content').append(div);
     });
 
     const portfolioItems = [{

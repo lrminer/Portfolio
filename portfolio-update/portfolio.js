@@ -42,7 +42,8 @@ $(document).ready(function () {
             type: "submit",
             name: "name",
             placeholder: 'Your name'
-        }]
+        } 
+    ]
     };
 
     $('#contactLink').on('click', function () {
@@ -74,32 +75,37 @@ $(document).ready(function () {
         h1: 'Pokemon Node',
         p: 'Snippet about piece',
         img: '<img>',
-        src: "http://via.placeholder.com/200x200"
+        src: "http://via.placeholder.com/200x200",
+        ghpage: "https://github.com/lrminer/Nodemon",
+        deployed: "https://github.com/lrminer/Nodemon"
     }, {
         h1: 'Trivia Game',
         p: 'Snippet about piece',
         img: '<img>',
-        src: "http://via.placeholder.com/200x200"
+        src: "http://via.placeholder.com/200x200",
+        ghpage: "https://github.com/lrminer/TriviaGame",
+        deployed: "https://lrminer.github.io/TriviaGame/"
     }, {
         h1: 'Translate-A-Tweet App',
         p: 'Project 1',
         img: '<img>',
-        src: "http://via.placeholder.com/200x200"
+        src: "http://via.placeholder.com/200x200",
+        ghpage: "https://github.com/lrminer/translate-tweet-app",
+        deployed: "https://lrminer.github.io/translate-tweet-app/"
     }, {
-        h1: 'Pokemon Node',
+        h1: 'Word Guess Game',
         p: 'Snippet about piece',
         img: '<img>',
-        src: "http://via.placeholder.com/200x200"
+        src: "http://via.placeholder.com/200x200",
+        ghpage: "https://github.com/lrminer/Word-Guess-Game",
+        deployed: "https://lrminer.github.io/Word-Guess-Game/"
     }, {
-        h1: 'Pokemon Node',
+        h1: 'Crystal Game',
         p: 'Snippet about piece',
         img: '<img>',
-        src: "http://via.placeholder.com/200x200"
-    }, {
-        h1: 'Pokemon Node',
-        p: 'Snippet about piece',
-        img: '<img>',
-        src: "http://via.placeholder.com/200x200"
+        src: "http://via.placeholder.com/200x200",
+        ghpage: "https://github.com/lrminer/Unit-4-Game",
+        deployed: "https://lrminer.github.io/Unit-4-Game/"
     }];
 
     $('.dropdown-item').on('click', function () {

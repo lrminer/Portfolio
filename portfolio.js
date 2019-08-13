@@ -146,10 +146,19 @@ $(document).ready(function () {
         const img = $('<img>');
         img.attr('src', portfolioItems[index].src);
 
-        const div = $('<div>');
+        const ghLink = $(`<a href="${portfolioItems[index].ghpage}">`);
+        const ghP = $('<p>');
+        ghP.text('View this project on GitHub');
+        ghLink.append(ghP);
 
+        const deployedLink = $(`<a href="${portfolioItems[index].deployed}">`);
+        const deployedP = $('<p>');
+        deployedP.text('View the deployed project');
+        deployedLink.append(deployedP); 
+
+        const div = $('<div>');
         div.addClass('d-flex flex-column'); //style your appended content with bootstrap classes here
-        div.append(h1, p, img);
+        div.append(h1, p, ghLink, deployedLink, img);
 
         $('#main-content').html(div);
 

@@ -42,8 +42,7 @@ $(document).ready(function () {
             type: "submit",
             name: "name",
             placeholder: 'Your name'
-        } 
-    ]
+        }]
     };
 
     $('#contactLink').on('click', function () {
@@ -72,40 +71,40 @@ $(document).ready(function () {
     });
 
     const portfolioItems = [{
+        h1: 'Translate-A-Tweet App',
+        p: 'Project 1',
+        img: '<img>',
+        src: "./assets/images/smartmockups_jz9qy2bj.jpg",
+        ghpage: "https://github.com/lrminer/translate-tweet-app",
+        deployed: "https://lrminer.github.io/translate-tweet-app/"
+    }, {
         h1: 'Pokemon Node',
         p: 'Snippet about piece',
         img: '<img>',
-        src: "http://via.placeholder.com/200x200",
+        src: "./assets/images/ball-macro-pokeball-1310847-vincent-MA-janssen.jpg",
         ghpage: "https://github.com/lrminer/Nodemon",
         deployed: "https://github.com/lrminer/Nodemon"
     }, {
         h1: 'Trivia Game',
         p: 'Snippet about piece',
         img: '<img>',
-        src: "http://via.placeholder.com/200x200",
+        src: "./assets/images/Star_Wars_Logo.svg",
         ghpage: "https://github.com/lrminer/TriviaGame",
         deployed: "https://lrminer.github.io/TriviaGame/"
-    }, {
-        h1: 'Translate-A-Tweet App',
-        p: 'Project 1',
-        img: '<img>',
-        src: "http://via.placeholder.com/200x200",
-        ghpage: "https://github.com/lrminer/translate-tweet-app",
-        deployed: "https://lrminer.github.io/translate-tweet-app/"
-    }, {
-        h1: 'Word Guess Game',
-        p: 'Snippet about piece',
-        img: '<img>',
-        src: "http://via.placeholder.com/200x200",
-        ghpage: "https://github.com/lrminer/Word-Guess-Game",
-        deployed: "https://lrminer.github.io/Word-Guess-Game/"
     }, {
         h1: 'Crystal Game',
         p: 'Snippet about piece',
         img: '<img>',
-        src: "http://via.placeholder.com/200x200",
+        src: "./assets/images/crystal_collectors_demo.PNG",
         ghpage: "https://github.com/lrminer/Unit-4-Game",
         deployed: "https://lrminer.github.io/Unit-4-Game/"
+    }, {
+        h1: 'Word Guess Game',
+        p: 'Snippet about piece',
+        img: '<img>',
+        src: "./assets/images/Star_Wars_Logo.svg",
+        ghpage: "https://github.com/lrminer/Word-Guess-Game",
+        deployed: "https://lrminer.github.io/Word-Guess-Game/"
     }];
 
     $('.dropdown-item').on('click', function () {
@@ -121,10 +120,10 @@ $(document).ready(function () {
         img.attr('src', portfolioItems[index].src);
 
         const div = $('<div>');
-    
+
         div.addClass('d-flex flex-column'); //style your appended content with bootstrap classes here
-        div.append(h1,p,img);   
-        
+        div.append(h1, p, img);
+
         $('#main-content').html(div);
 
     });

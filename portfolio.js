@@ -1,7 +1,7 @@
 $(document).ready(function () {
     const aboutItems = {
         h1: 'About Me',
-        p: 'Lorem ipsum text asldkjfasd lasdl kfjasldkfja sldkfjas ldfkjas ldjf asldjf alskjdfl asjflaskjdflasjfla sjdflkjasdlfjasldkfjaslkdfjalskdjfklajdflkasjdflkasjdflkjasdf sdlk jfasl djf asldkfj asf lkjasd flkjasd lkjas flkjas dflkj asdflkj asdflk jasdlfk jasdlfk jasdlfk jasdlfkj asdlf jasld fkjas fdlkj'
+        p: 'Information about me'
     };
 
     $('#aboutLink').on('click', function () {
@@ -98,6 +98,13 @@ $(document).ready(function () {
     });
 
     const portfolioItems = [{
+        h1: 'Friend Finder',
+        p: 'Take a survey and match with somebody!',
+        img: '<img>',
+        src: "./assets/images/smartmockups_jz9qy2bj.jpg",
+        ghpage: "https://github.com/lrminer/translate-tweet-app",
+        deployed: "https://lrminer.github.io/translate-tweet-app/"
+    },{
         h1: 'Translate-A-Tweet App',
         p: 'Project 1',
         img: '<img>',
@@ -106,14 +113,14 @@ $(document).ready(function () {
         deployed: "https://lrminer.github.io/translate-tweet-app/"
     }, {
         h1: 'Pokemon Node',
-        p: 'Snippet about piece',
+        p: 'A Node command line application that utilizes Pokemon API and npm pokemon to simulate fight mechanics. An adventure awaits!',
         img: '<img>',
         src: "./assets/images/ball-macro-pokeball-1310847-vincent-MA-janssen.jpg",
         ghpage: "https://github.com/lrminer/Nodemon",
         deployed: "https://github.com/lrminer/Nodemon"
     }, {
         h1: 'Trivia Game',
-        p: 'Snippet about piece',
+        p: 'All SWAPI characters included. Do you know the force? Check out your midichlorian count with Star Wars trivia.',
         img: '<img>',
         src: "./assets/images/Star_Wars_Logo.svg",
         ghpage: "https://github.com/lrminer/TriviaGame",
